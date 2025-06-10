@@ -7,7 +7,8 @@ def get_connection():
         host="db",  # 'db' refers to your Docker container name in docker-compose
         user="root",
         password="mariucaa",
-        database="pisic"
+        database= "pisic",
+        port=3306
     )
 
 def create_table():
